@@ -35,6 +35,7 @@ Annotation must be provided in one of two formats:
 
 GTF files and DNA sequences for many widely-studied organisms can be downloaded [here](http://ccb.jhu.edu/software/tophat/igenomes.shtml) (sequences are in the `<organism>/<source>/<build>/Sequence/Chromosomes` subdirectory, e.g., `Homo_sapiens/UCSC/hg19/Sequence/Chromosomes`).
 
+### This is the part that doesn't work for me ###
 # Simulating reads
 
 Simulating an RNA-seq experiment with Polyester generally requires just one function call. In the simplest case, you will use the `simulate_experiment()` function.
